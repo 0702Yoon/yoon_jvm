@@ -1,8 +1,5 @@
 ### IntelliJ IDEA ###
-.idea/
-*.iml
 *.iws
-*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -35,9 +32,6 @@ bin/
 ### Gradle ###
 .gradle/
 build/
-gradle/
-gradlew
-gradlew.bat
 
 ### Java ###
 *.class
@@ -48,3 +42,10 @@ gradlew.bat
 
 ### Test ###
 src/test/
+
+### Exclude Demo ###
+src/main/java/gc/jvm/QuickDemo.java
+
+### Exclude Documentation ###
+*.md
+!README.md
