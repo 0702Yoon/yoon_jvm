@@ -49,3 +49,4 @@ src/main/java/gc/jvm/QuickDemo.java
 ### Exclude Documentation ###
 *.md
 !README.md
+!notion/**/*.md
